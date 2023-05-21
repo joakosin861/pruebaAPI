@@ -1,0 +1,70 @@
+body{
+    background: #3e48bb;
+    padding: 0;margin: 0;
+
+}
+header{
+    width: 100%;
+    background: #252121;
+    position: fixed;
+    top: 0;
+}
+.contenedorM{
+    display: flex;
+    list-style: none;
+    padding: 0 2%;
+    justify-content: right;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.contenedorM li{
+    display: inline-flex;
+    margin: 0 0.3%;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+.aref{
+    text-decoration: none;
+    color: white;
+    border-bottom:1px solid black;
+}
+.muestrapizza{
+    background: rgba(241, 209, 186, 0.37);
+    display: flex;
+}
+.pizzaIMG img{
+    width: 90%;
+    border: 1px solid black;
+}
+.pizzaIMG{
+    width: 30%;
+    height: 30%;
+    padding: 2%;
+    padding-right: 0;
+}
+.texto{
+    border: 1px solid black;
+    width: 100%;
+    margin: 2% ;
+    padding: 2%;
+    background:rgba(112,182,187,0.62);
+}
+.texto h3{
+    padding: 0.5% ;
+}
+.articulo{
+width: 100%;
+}
+.botonaso{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.textoD{
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    background: white;
+}
+.resal{
+    font-weight: bold;
+}
